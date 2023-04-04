@@ -1,0 +1,16 @@
+{
+  "name": "@foo/test",
+  "packageManager": "yarn@3.5.0",
+  "version": "1.0.0",
+  "main": "dist/lib/es5/index.js",
+  "module": "dist/lib/es6/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "compile": "tsc && tsc --build tsconfig.es5.json"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  }
+}
