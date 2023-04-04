@@ -1,5 +1,5 @@
 {
-  "name": "@foo/test",
+  "name": "@foo/some-lib",
   "packageManager": "yarn@3.5.0",
   "version": "1.0.0",
   "main": "dist/lib/es5/index.js",
